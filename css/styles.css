@@ -1,12 +1,5 @@
-*{
-  background-color:#e2ccac;
-
-}
-
 body{
-   border:5px solid green;
-   border-style:ridge;
-   color:black;
+    color:black;
 }
 #about>p{
     font-size:15px;
@@ -19,16 +12,16 @@ img{
   height:100 px;
 }
 
-nav,ol,li{
+nav>ol>li{
    padding: 20px;
    display:flex;
    flex-direction:row;
    color:blue;
 }
-#services{
-   border:2px solid grey;
+#hobbies{
    border-radius:2px;
    border-style:inset;
+   background-image: url(https://scontent.fnbo6-1.fna.fbcdn.net/v/t1.0-9/16426106_1723890284589790_1628034226033835275_n.jpg?_nc_cat=0&oh=0c702f0b5a6a23129455f73e5e2f0021&oe=5C2D9D65);
 
 
 }
@@ -37,12 +30,14 @@ nav,ol,li{
   border:3px solid grey;
   border-radius:5px;
   border-style:dashed;
+   background-image: url();
 }
 #home{
     text-align:center;
     border:5px solid DodgerBlue;
     border-style:outset;
     box-shadow:20%;
+   background-image: url();
 }
 #contacts{
   border:2px solid MediumSeaGreen;
@@ -50,4 +45,21 @@ nav,ol,li{
   box-shadow:10px;
   font-size:15px;
   font-style:red serif;
+ background-image: url();
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
