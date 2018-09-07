@@ -1,0 +1,53 @@
+*{
+  background-color:#e2ccac;
+
+}
+
+body{
+   border:5px solid green;
+   border-style:ridge;
+   color:white;
+}
+#about>p{
+    font-size:15px;
+    font-family:'Helvetica';
+    font-style:italic;
+    font-weight:400;
+}
+img{
+  width:50 px;
+  height:100 px;
+}
+
+nav,ol,li{
+   padding: 20px;
+   display:flex;
+   flex-direction:row;
+   color:blue;
+}
+#services{
+   border:2px solid grey;
+   border-radius:2px;
+   border-style:inset;
+
+
+}
+
+#about{
+  border:3px solid grey;
+  border-radius:5px;
+  border-style:dashed;
+}
+#home{
+    text-align:center;
+    border:5px solid DodgerBlue;
+    border-style:outset;
+    box-shadow:20%;
+}
+#contacts{
+  border:2px solid MediumSeaGreen;
+  border-style:groove;
+  box-shadow:10px;
+  font-size:15px;
+  font-style:red serif;
+}
