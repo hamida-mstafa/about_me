@@ -6,7 +6,9 @@ Its a website showing my education background, my hobbies, why i chose programmi
 ## Installation Requirements 
 Git
 ### Installation instruction
-Git clone
+```
+Git clone https://github.com/hamida-mstafa/about_me.git
+```
 ## Technologies used
 HTML
 CSS
