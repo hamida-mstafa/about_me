@@ -1,12 +1,12 @@
 *{
   background-color:#e2ccac;
-
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg);
 }
 
 body{
    border:5px solid green;
    border-style:ridge;
-   color:white;
+   color:red;
 }
 #about>p{
     font-size:15px;
@@ -15,15 +15,15 @@ body{
     font-weight:400;
 }
 img{
-  width:50 px;
-  height:100 px;
+  width:600 px;
+  height:400 px;
 }
 
 nav,ol,li{
    padding: 20px;
    display:flex;
    flex-direction:row;
-   color:blue;
+   color:green;
 }
 #services{
    border:2px solid grey;
