@@ -6,7 +6,7 @@
 body{
    border:5px solid green;
    border-style:ridge;
-   color:white;
+   color:black;
 }
 #about>p{
     font-size:15px;
