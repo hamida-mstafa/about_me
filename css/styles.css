@@ -23,6 +23,7 @@ body::before {
     font-family:'Helvetica';
     font-style:italic;
     font-weight:400;
+    background-color: black;
 }
 img{
   width:50 px;
@@ -30,7 +31,7 @@ img{
 }
 
 nav>ol>li{
-   padding: 20px;
+   padding: 30px;
    display:flex;
    flex-direction:row;
    color:blue;
