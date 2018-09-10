@@ -57,7 +57,7 @@ nav>ol>li{
     border:5px solid DodgerBlue;
     border-style:outset;
     box-shadow:20%;
-   background-image: url();
+   background-color: black;
 }
 #contacts{
   font-size:15px;
