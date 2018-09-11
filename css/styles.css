@@ -18,12 +18,12 @@ body::before {
 }
 
 
-#about>p{
+p{
     font-size:15px;
     font-family:'Helvetica';
     font-style:italic;
     font-weight:400;
-    background-color: black;
+    
 }
 img{
   width:50 px;
@@ -35,23 +35,15 @@ nav>ol>li{
    display:flex;
    flex-direction:row;
    color:blue;
+   font-size: 20px;
 }
-#hobbies{
-   background-color: green;
-   font-style: normal;
-   font-family: sans-serif;
-   font-weight: 400;
-
-
-
-}
-
-#about{
+.container{
   color: white;
-  border:3px solid grey;
-  border-radius:5px;
-  border-style:dashed;
-   background-image: url(https://images.unsplash.com/photo-1530482817083-29ae4b92ff15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44f4aebbd1e1371d5bf7dc22016c5d29&w=1000&q=80);
+  background-color: green;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: 400;
+
 }
 #home{
     text-align:center;
@@ -63,5 +55,5 @@ nav>ol>li{
 #contacts{
   font-size:15px;
   font-style:red serif;
- background-color: DodgerBlue;
+
 }
