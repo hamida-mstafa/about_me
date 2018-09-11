@@ -23,7 +23,7 @@ p{
     font-family:'Helvetica';
     font-style:italic;
     font-weight:400;
-    
+
 }
 img{
   width:50 px;
@@ -31,13 +31,27 @@ img{
 }
 
 nav>ol>li{
-   padding: 30px;
-   display:flex;
-   flex-direction:row;
-   color:blue;
-   font-size: 20px;
+     padding: 200px;
+     display:flex;
+     flex-direction:row;
+     color:blue;
+     font-size: 20px;
+     list-style-type: none;
+     margin: 0;
+  	text-align: center;
+     	margin-top: 80px;
+   	display: inline;
+    	text-decoration: none;
+   	font-family: Cambria, serif;
+   	font-size: 24px;
+   	font-style: normal;
+   	font-weight: normal;
+   	text-transform: normal;
+   	letter-spacing: normal;
+   	line-height: 1.3em;
+   	color: #596365;
 }
-.container{
+.content{
   color: white;
   background-color: green;
   font-style: italic;
@@ -57,3 +71,4 @@ nav>ol>li{
   font-style:red serif;
 
 }
+#h
