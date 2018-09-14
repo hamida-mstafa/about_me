@@ -7,7 +7,7 @@ Its a website showing my education background, my hobbies, why i chose programmi
 Git
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/about_me.git
+[Git clone] (https://github.com/hamida-mstafa/about_me.git)
 ```
 ## Technologies used
 HTML
